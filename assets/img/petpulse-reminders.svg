@@ -1,0 +1,18 @@
+<svg width="720" height="960" viewBox="0 0 720 960" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">PetPulse reminders preview</title>
+  <desc id="desc">Pet care schedule with upcoming medication and appointment reminders.</desc>
+  <rect width="720" height="960" rx="30" fill="#F7FAF9"/>
+  <rect x="72" y="72" width="576" height="816" rx="42" fill="#FFFFFF" stroke="#D9E5E1" stroke-width="4"/>
+  <text x="120" y="150" fill="#10201C" font-family="Arial" font-size="42" font-weight="700">Today</text>
+  <rect x="120" y="196" width="480" height="130" rx="24" fill="#D7F3EE"/>
+  <text x="154" y="250" fill="#115E59" font-family="Arial" font-size="28" font-weight="700">Morning medication</text>
+  <text x="154" y="292" fill="#60726C" font-family="Arial" font-size="22">8:00 AM - Charlie</text>
+  <rect x="120" y="356" width="480" height="130" rx="24" fill="#F1F6F4"/>
+  <text x="154" y="410" fill="#10201C" font-family="Arial" font-size="28" font-weight="700">Feeding log</text>
+  <text x="154" y="452" fill="#60726C" font-family="Arial" font-size="22">12:30 PM - Dry food</text>
+  <rect x="120" y="516" width="480" height="130" rx="24" fill="#F1F6F4"/>
+  <text x="154" y="570" fill="#10201C" font-family="Arial" font-size="28" font-weight="700">Vet appointment</text>
+  <text x="154" y="612" fill="#60726C" font-family="Arial" font-size="22">Friday - Annual checkup</text>
+  <rect x="120" y="704" width="480" height="76" rx="20" fill="#0F766E"/>
+  <text x="260" y="752" fill="#FFFFFF" font-family="Arial" font-size="24" font-weight="700">Add reminder</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg width="720" height="960" viewBox="0 0 720 960" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">PitchTrace pitch session preview</title>
+  <desc id="desc">Pitch session summary with command, velocity, and pitch mix cards.</desc>
+  <rect width="720" height="960" rx="30" fill="#F7FAF9"/>
+  <rect x="72" y="72" width="576" height="816" rx="42" fill="#FFFFFF" stroke="#D9E5E1" stroke-width="4"/>
+  <text x="120" y="150" fill="#10201C" font-family="Arial" font-size="40" font-weight="700">Session</text>
+  <rect x="120" y="200" width="220" height="150" rx="24" fill="#D7F3EE"/>
+  <text x="150" y="264" fill="#115E59" font-family="Arial" font-size="46" font-weight="700">42</text>
+  <text x="150" y="306" fill="#60726C" font-family="Arial" font-size="22">Pitches</text>
+  <rect x="380" y="200" width="220" height="150" rx="24" fill="#F1F6F4"/>
+  <text x="410" y="264" fill="#10201C" font-family="Arial" font-size="46" font-weight="700">71%</text>
+  <text x="410" y="306" fill="#60726C" font-family="Arial" font-size="22">Strike rate</text>
+  <rect x="120" y="400" width="480" height="180" rx="26" fill="#F1F6F4"/>
+  <text x="154" y="456" fill="#10201C" font-family="Arial" font-size="28" font-weight="700">Pitch mix</text>
+  <rect x="154" y="494" width="320" height="18" rx="9" fill="#0F766E"/>
+  <rect x="154" y="536" width="220" height="18" rx="9" fill="#58A69E"/>
+  <rect x="154" y="578" width="150" height="18" rx="9" fill="#A8DCD4"/>
+  <rect x="120" y="632" width="480" height="104" rx="24" fill="#D7F3EE"/>
+  <text x="154" y="690" fill="#115E59" font-family="Arial" font-size="28" font-weight="700">Export coach notes</text>
+</svg>

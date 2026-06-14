@@ -1,0 +1,19 @@
+<svg width="720" height="960" viewBox="0 0 720 960" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">PetPulse pet profile preview</title>
+  <desc id="desc">Pet profile showing health notes, weight trend, and care history.</desc>
+  <rect width="720" height="960" rx="30" fill="#EDF6F3"/>
+  <rect x="72" y="72" width="576" height="816" rx="42" fill="#FFFFFF" stroke="#D9E5E1" stroke-width="4"/>
+  <circle cx="360" cy="190" r="76" fill="#0F766E"/>
+  <circle cx="332" cy="172" r="14" fill="#FFFFFF"/>
+  <circle cx="388" cy="172" r="14" fill="#FFFFFF"/>
+  <path d="M326 220c30 28 58 28 88 0" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  <text x="278" y="310" fill="#10201C" font-family="Arial" font-size="38" font-weight="700">Charlie</text>
+  <text x="248" y="350" fill="#60726C" font-family="Arial" font-size="22">Golden Retriever</text>
+  <rect x="120" y="410" width="480" height="108" rx="22" fill="#F4F7F6"/>
+  <text x="152" y="458" fill="#10201C" font-family="Arial" font-size="26" font-weight="700">Weight trend</text>
+  <polyline points="154,492 230,484 306,488 382,466 458,470 548,452" fill="none" stroke="#0F766E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="120" y="552" width="480" height="96" rx="22" fill="#D7F3EE"/>
+  <text x="152" y="604" fill="#115E59" font-family="Arial" font-size="26" font-weight="700">Care notes</text>
+  <rect x="120" y="682" width="480" height="96" rx="22" fill="#F4F7F6"/>
+  <text x="152" y="734" fill="#10201C" font-family="Arial" font-size="26" font-weight="700">Vaccination history</text>
+</svg>

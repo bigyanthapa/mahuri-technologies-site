@@ -1,0 +1,17 @@
+<svg width="720" height="960" viewBox="0 0 720 960" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">PitchTrace history preview</title>
+  <desc id="desc">Player history screen with performance trend lines and recent sessions.</desc>
+  <rect width="720" height="960" rx="30" fill="#EDF6F3"/>
+  <rect x="72" y="72" width="576" height="816" rx="42" fill="#FFFFFF" stroke="#D9E5E1" stroke-width="4"/>
+  <text x="120" y="150" fill="#10201C" font-family="Arial" font-size="40" font-weight="700">Trends</text>
+  <rect x="120" y="202" width="480" height="260" rx="26" fill="#F4F7F6"/>
+  <line x1="164" y1="406" x2="556" y2="406" stroke="#D9E5E1" stroke-width="5"/>
+  <line x1="164" y1="256" x2="164" y2="406" stroke="#D9E5E1" stroke-width="5"/>
+  <polyline points="178,378 240,362 302,346 364,350 426,318 488,304 542,286" fill="none" stroke="#0F766E" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="120" y="510" width="480" height="82" rx="20" fill="#D7F3EE"/>
+  <text x="154" y="560" fill="#115E59" font-family="Arial" font-size="26" font-weight="700">Fastball command improved</text>
+  <rect x="120" y="622" width="480" height="82" rx="20" fill="#F4F7F6"/>
+  <text x="154" y="672" fill="#10201C" font-family="Arial" font-size="26" font-weight="700">Last bullpen: 36 pitches</text>
+  <rect x="120" y="734" width="480" height="82" rx="20" fill="#F4F7F6"/>
+  <text x="154" y="784" fill="#10201C" font-family="Arial" font-size="26" font-weight="700">Game warmup: 18 pitches</text>
+</svg>

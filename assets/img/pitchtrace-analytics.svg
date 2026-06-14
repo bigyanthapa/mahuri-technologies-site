@@ -1,0 +1,20 @@
+<svg width="960" height="640" viewBox="0 0 960 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">PitchTrace analytics preview</title>
+  <desc id="desc">A mobile baseball pitching analytics app with velocity, movement, and session charts.</desc>
+  <rect width="960" height="640" rx="24" fill="#EEF4F6"/>
+  <rect x="294" y="50" width="372" height="540" rx="38" fill="#11231F"/>
+  <rect x="314" y="78" width="332" height="484" rx="26" fill="#FFFFFF"/>
+  <text x="350" y="136" fill="#10201C" font-family="Arial" font-size="30" font-weight="700">Bullpen</text>
+  <text x="350" y="170" fill="#60726C" font-family="Arial" font-size="16">42 pitches tracked</text>
+  <rect x="350" y="206" width="246" height="118" rx="20" fill="#D7F3EE"/>
+  <text x="374" y="256" fill="#115E59" font-family="Arial" font-size="48" font-weight="700">87.4</text>
+  <text x="494" y="254" fill="#115E59" font-family="Arial" font-size="20" font-weight="700">mph</text>
+  <text x="374" y="292" fill="#60726C" font-family="Arial" font-size="16">Avg velocity</text>
+  <rect x="350" y="350" width="246" height="150" rx="20" fill="#F4F7F6"/>
+  <line x1="378" y1="466" x2="568" y2="466" stroke="#D9E5E1" stroke-width="4"/>
+  <line x1="378" y1="392" x2="378" y2="466" stroke="#D9E5E1" stroke-width="4"/>
+  <polyline points="386,450 422,428 458,438 494,398 530,410 562,382" fill="none" stroke="#0F766E" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="350" y="520" width="74" height="18" rx="9" fill="#10201C"/>
+  <rect x="438" y="520" width="74" height="18" rx="9" fill="#78918A"/>
+  <rect x="526" y="520" width="70" height="18" rx="9" fill="#78918A"/>
+</svg>
