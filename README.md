@@ -12,15 +12,15 @@ Static marketing site for Mahuri Solutions, ready for GitHub Pages.
 
 The `CNAME` file is included at the repository root for GitHub Pages.
 
-## Contact form
+## Contact
 
-The contact form posts to:
+The site currently uses a direct email link:
 
 ```text
-https://formspree.io/f/{your-form-id}
+mailto:info@mahurisolutions.com
 ```
 
-Replace `{your-form-id}` in `contact/index.html` and the support pages after creating the Formspree form.
+A hosted contact form can be added later with Formspree or another static-friendly form service.
 
 ## Screenshots
 
