@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Privacy policy for WorldLens by Mahuri Solutions: what data the app accesses, the third-party APIs it calls, and how saved places and advertising are handled.">
+    <title>WorldLens Privacy Policy | Mahuri Solutions</title>
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="nav-wrap">
+        <a class="brand" href="../../../index.html"><span class="brand-mark">MS</span><span>Mahuri Solutions</span></a>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle><span></span></button>
+        <nav class="nav-links" aria-label="Primary navigation" data-nav-links>
+          <a href="../../../index.html">Home</a>
+          <a href="../../../index.html#apps">Apps</a>
+          <a href="../../../support/worldlens/index.html">Support</a>
+          <a href="../../../contact/index.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="section">
+      <article class="policy-content">
+        <header>
+          <p class="eyebrow">WorldLens</p>
+          <h1>WorldLens Privacy Policy</h1>
+          <p class="lead">Last Updated: September 12, 2026</p>
+        </header>
+        <section>
+          <p>WorldLens ("the app") is a map exploration app for Android and iOS that shows local time, weather, elevation, and currency exchange rate for any point you tap on a map. This policy explains what data the app accesses and how it is used. It supplements the <a href="../../../privacy/index.html">Mahuri Technologies LLC privacy policy</a>.</p>
+        </section>
+        <section>
+          <h2>Location</h2>
+          <p>WorldLens requests precise location access (<code>ACCESS_FINE_LOCATION</code> on Android, Core Location on iOS) to center the map on where you are and to determine your home time zone and base currency for comparison against places you look up. Your location is used on-device only and is never stored on or transmitted to any WorldLens server &mdash; WorldLens has no backend and no user accounts. When you tap a point on the map (which may or may not be your current location), the app sends that point's coordinates to third-party APIs to fetch the data shown for that point:</p>
+          <ul>
+            <li><strong>OpenWeatherMap</strong> &mdash; current weather for a tapped location</li>
+            <li><strong>Nominatim (OpenStreetMap)</strong> &mdash; place name/address for a tapped location</li>
+            <li><strong>Open-Meteo</strong> &mdash; elevation for a tapped location</li>
+            <li><strong>open.er-api.com</strong> &mdash; exchange rate for the tapped location's local currency (this request carries only currency codes, not your coordinates)</li>
+            <li><strong>CARTO</strong> &mdash; the map tiles themselves, rendered from OpenStreetMap data</li>
+          </ul>
+          <p>These requests carry only the coordinates needed to answer the query; WorldLens does not attach any identifying information to them, and none of these providers are used to build a profile of you.</p>
+        </section>
+        <section>
+          <h2>Saved places</h2>
+          <p>Places you choose to save are stored only in a local database on your device (and, for the home-screen widget, in an app-group container also local to your device). This data is never sent off your device by WorldLens and is deleted if you uninstall the app.</p>
+        </section>
+        <section>
+          <h2>Advertising</h2>
+          <p>WorldLens shows a native ad in the location detail view, served through Google AdMob (Google Mobile Ads SDK). AdMob may use your device's advertising identifier (Android Advertising ID / Apple's IDFA, where permitted) and other signals to select and measure ads. This data is collected and processed by Google, not by WorldLens directly. See Google's own policies for details:</p>
+          <ul>
+            <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+            <li><a href="https://support.google.com/admob/answer/6128543">How Google uses information from sites or apps that use AdMob</a></li>
+          </ul>
+        </section>
+        <section>
+          <h2>What WorldLens does not do</h2>
+          <ul>
+            <li>No user accounts, sign-in, or login of any kind.</li>
+            <li>No data is sold to third parties.</li>
+            <li>No cross-app or cross-site tracking beyond what the AdMob SDK performs on Google's behalf, as described above.</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Children's privacy</h2>
+          <p>WorldLens is not directed at children under 13 and does not knowingly collect data from them.</p>
+        </section>
+        <section>
+          <h2>Changes to this policy</h2>
+          <p>If this policy changes, the updated version will be posted at this same URL with a new "last updated" date.</p>
+        </section>
+        <section>
+          <h2>Contact</h2>
+          <p>Questions about this policy or the app's data practices can be sent to <a href="mailto:info@mahurisolutions.com?subject=WorldLens%20Privacy">info@mahurisolutions.com</a>.</p>
+        </section>
+      </article>
+    </main>
+    <footer class="site-footer"><div class="footer-inner"><p>&copy; <span data-year></span> Mahuri Solutions. All rights reserved.</p><div class="footer-links"><a href="../../../privacy/index.html">Privacy</a><a href="../../../support/worldlens/index.html">Support</a><a href="../../../contact/index.html">Contact</a></div></div></footer>
+    <script src="../../../assets/js/main.js" defer></script>
+  </body>
+</html>
