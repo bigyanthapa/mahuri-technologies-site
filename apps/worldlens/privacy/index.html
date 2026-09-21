@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Privacy policy for WorldLens by Mahuri Solutions: what data the app accesses, the third-party APIs it calls, and how saved places and advertising are handled.">
+    <meta name="description" content="Privacy policy for WorldLens by Mahuri Technologies LLC: what location data the app uses, which third-party services receive it, and how advertising works.">
     <title>WorldLens Privacy Policy | Mahuri Solutions</title>
     <link rel="stylesheet" href="../../../assets/css/styles.css">
   </head>
@@ -21,63 +21,103 @@
         </nav>
       </div>
     </header>
+
     <main id="main" class="section">
       <article class="policy-content">
         <header>
           <p class="eyebrow">WorldLens</p>
           <h1>WorldLens Privacy Policy</h1>
-          <p class="lead">Last Updated: September 12, 2026</p>
+          <p class="lead">Last Updated: September 20, 2026</p>
         </header>
+
         <section>
-          <p>WorldLens ("the app") is a map exploration app for Android and iOS that shows local time, weather, elevation, and currency exchange rate for any point you tap on a map. This policy explains what data the app accesses and how it is used. It supplements the <a href="../../../privacy/index.html">Mahuri Technologies LLC privacy policy</a>.</p>
+          <p>This policy covers the <strong>WorldLens</strong> mobile app, published by Mahuri
+          Technologies LLC ("we," "our," or "us"). It supplements our
+          <a href="../../../privacy/index.html">general privacy policy</a> and takes precedence
+          for WorldLens.</p>
+          <p>WorldLens has no user accounts, no sign-in, and no backend server of our own. We do
+          not receive, store, or have any access to your location or your saved places.</p>
         </section>
+
         <section>
-          <h2>Location</h2>
-          <p>WorldLens requests precise location access (<code>ACCESS_FINE_LOCATION</code> on Android, Core Location on iOS) to center the map on where you are and to determine your home time zone and base currency for comparison against places you look up. Your location is used on-device only and is never stored on or transmitted to any WorldLens server &mdash; WorldLens has no backend and no user accounts. When you tap a point on the map (which may or may not be your current location), the app sends that point's coordinates to third-party APIs to fetch the data shown for that point:</p>
+          <h2>1. Location</h2>
+          <p>WorldLens requests precise location access (<code>ACCESS_FINE_LOCATION</code> on
+          Android, Core Location on iOS) to center the map on where you are and to work out your
+          home time zone and currency, so places you look up can be compared against them.</p>
+          <p>Your device location is used on your device only. It is never sent to us and never
+          stored on any server we operate, because we operate none.</p>
+        </section>
+
+        <section>
+          <h2>2. Third-party services that receive a location</h2>
+          <p>When you tap a point on the map or pick a search result &mdash; which may or may not
+          be where you are &mdash; the app sends that point's coordinates to third-party APIs to
+          fetch what it shows for that point:</p>
           <ul>
-            <li><strong>OpenWeatherMap</strong> &mdash; current weather for a tapped location</li>
-            <li><strong>Nominatim (OpenStreetMap)</strong> &mdash; place name/address for a tapped location</li>
-            <li><strong>Open-Meteo</strong> &mdash; elevation for a tapped location</li>
-            <li><strong>open.er-api.com</strong> &mdash; exchange rate for the tapped location's local currency (this request carries only currency codes, not your coordinates)</li>
-            <li><strong>CARTO</strong> &mdash; the map tiles themselves, rendered from OpenStreetMap data</li>
+            <li><strong>OpenWeatherMap</strong> &mdash; current weather</li>
+            <li><strong>Nominatim (OpenStreetMap)</strong> &mdash; place name and address, and
+            search results for text you type</li>
+            <li><strong>Open-Meteo</strong> &mdash; elevation</li>
+            <li><strong>CARTO</strong> &mdash; the map tiles themselves, rendered from
+            OpenStreetMap data</li>
+            <li><strong>open.er-api.com</strong> &mdash; exchange rates. This request carries only
+            currency codes, never your coordinates.</li>
           </ul>
-          <p>These requests carry only the coordinates needed to answer the query; WorldLens does not attach any identifying information to them, and none of these providers are used to build a profile of you.</p>
+          <p>These requests carry only what is needed to answer the query. We attach no account,
+          name, email, or device identifier to them, and none of these providers are used by us to
+          build a profile of you. Each provider handles the request under its own privacy policy.</p>
         </section>
+
         <section>
-          <h2>Saved places</h2>
-          <p>Places you choose to save are stored only in a local database on your device (and, for the home-screen widget, in an app-group container also local to your device). This data is never sent off your device by WorldLens and is deleted if you uninstall the app.</p>
+          <h2>3. Saved places</h2>
+          <p>Places you save are stored in a database on your device, and &mdash; so the
+          home-screen widget can read them &mdash; in an app-group container that is also local to
+          your device. This never leaves your device and is deleted when you uninstall the app.</p>
         </section>
+
         <section>
-          <h2>Advertising</h2>
-          <p>WorldLens shows a native ad in the location detail view, served through Google AdMob (Google Mobile Ads SDK). AdMob may use your device's advertising identifier (Android Advertising ID / Apple's IDFA, where permitted) and other signals to select and measure ads. This data is collected and processed by Google, not by WorldLens directly. See Google's own policies for details:</p>
-          <ul>
-            <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
-            <li><a href="https://support.google.com/admob/answer/6128543">How Google uses information from sites or apps that use AdMob</a></li>
-          </ul>
+          <h2>4. Advertising</h2>
+          <p>WorldLens shows a single native ad in the location detail view, served through Google
+          AdMob (the Google Mobile Ads SDK). The SDK collects device identifiers and similar
+          signals to deliver ads, cap how often you see the same one, and detect fraud.</p>
+          <p><strong>WorldLens requests non-personalized ads only.</strong> The app does not ask
+          for App Tracking Transparency permission on iOS and therefore has no access to the
+          advertising identifier (IDFA), and it sends a non-personalized flag with every ad
+          request on both platforms. Nothing the app collects is used to track you across other
+          companies' apps or websites, or to build an advertising profile of you.</p>
+          <p>Google's own handling of ad requests is governed by
+          <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">Google's
+          privacy policy</a>.</p>
         </section>
+
         <section>
-          <h2>What WorldLens does not do</h2>
-          <ul>
-            <li>No user accounts, sign-in, or login of any kind.</li>
-            <li>No data is sold to third parties.</li>
-            <li>No cross-app or cross-site tracking beyond what the AdMob SDK performs on Google's behalf, as described above.</li>
-          </ul>
+          <h2>5. Children's privacy</h2>
+          <p>WorldLens is not directed at children under 13 and does not knowingly collect
+          personal information from them. If you believe a child has provided us personal data,
+          contact us and we will remove it.</p>
         </section>
+
         <section>
-          <h2>Children's privacy</h2>
-          <p>WorldLens is not directed at children under 13 and does not knowingly collect data from them.</p>
+          <h2>6. Your choices</h2>
+          <p>You can deny or revoke location permission at any time in your device settings;
+          WorldLens still works, and you can tap or search for places manually. Uninstalling the
+          app removes every piece of data it has stored. Both Android and iOS also offer
+          system-level controls for resetting or limiting ad personalization.</p>
         </section>
+
         <section>
-          <h2>Changes to this policy</h2>
-          <p>If this policy changes, the updated version will be posted at this same URL with a new "last updated" date.</p>
+          <h2>7. Changes</h2>
+          <p>If this policy changes we will update this page and the "Last Updated" date above.</p>
         </section>
+
         <section>
-          <h2>Contact</h2>
-          <p>Questions about this policy or the app's data practices can be sent to <a href="mailto:info@mahurisolutions.com?subject=WorldLens%20Privacy">info@mahurisolutions.com</a>.</p>
+          <h2>8. Contact</h2>
+          <p>Questions about this policy: <a href="mailto:info@mahurisolutions.com">info@mahurisolutions.com</a>.</p>
         </section>
       </article>
     </main>
-    <footer class="site-footer"><div class="footer-inner"><p>&copy; <span data-year></span> Mahuri Solutions. All rights reserved.</p><div class="footer-links"><a href="../../../privacy/index.html">Privacy</a><a href="../../../support/worldlens/index.html">Support</a><a href="../../../contact/index.html">Contact</a></div></div></footer>
+
+    <footer class="site-footer"><div class="footer-inner"><p>&copy; <span data-year></span> Mahuri Solutions. All rights reserved.</p><div class="footer-links"><a href="../../../privacy/index.html">Privacy Policy</a><a href="../../../support/worldlens/index.html">Support</a><a href="../../../contact/index.html">Contact</a></div></div></footer>
     <script src="../../../assets/js/main.js" defer></script>
   </body>
 </html>
